@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;500;600&display=swap');
+
+
+/* Navabr */
+body{
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 79px;
+    align-items: center;
+    font-family: Nunito;
+    font-weight: bold;
+}
+
+.nav-logo img {
+    width: 130px;
+    height: 39px;
+}
+
+.nav-items{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.nav-links {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-link.active{
+    font-weight: 600;
+    border-bottom: 3px solid #ffff;
+}
+
+button.btn-daftar{
+    padding: 8px 40px;
+    border: 2px solid #ffff;
+    background-color: transparent;
+    border-radius: 40px;
+    color: #ffff;
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+button.btn-daftar img{
+    padding: 0 10px;
+    
+
+}
+
+/* Navbar End */
+
+/* Judul */
+
+section.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+}
+
+.column-bg img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9999;
+    width: 1100px;
+    height: 500px;
+}
+
+.column-head{
+    padding-top: 100px;
+    width: 40%;
+}
+
+h1.head{
+    font-size: 50px;
+    font-family: Jost;
+}
+
+.support{
+    display: flex;
+}
+
+.support img {
+    padding: 0 10px;
+    width: 120px;
+    height: 27px;
+}
+
+h3.support{
+    margin: 5px 0;
+    font-size: 20px;
+    font-family: Jost;
+    font-weight: 300;
+}
+
+p.content{
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: Nunito;
+}
+
+.bec{
+    color: #BF0561;
+}
+
+button.btn-gabung{
+    padding: 8px 40px;
+    border: none;
+    background-color:#BF0561;
+    border-radius: 40px;
+    color: #ffff;
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+button.btn-gabung img {
+    padding: 0 10px;
+}
+
+/* Judul End */
+
+/* Judul 2 */
+
+.text-head{
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.th-1{
+    font-weight: bold;
+    font-size: 40px; 
+    font-family: Jost;  
+}
+
+.th-s{
+    border-bottom: 5px solid #BF0561;
+}
+
+.tc-1{
+    padding: 40px 0;
+    width: 50%;
+    text-align: center;
+    font-family: Nunito;
+}
+
+.tc-b{
+    color: #BF0561;
+    font-weight: bold;
+}
+
+.hero2d{
+    display: flex;
+    font-family: Nunito;
+}
+
+.text-wd{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.text-wdos{
+    color: #BF0561;
+    font-weight: bold;
+}
+
+.img-wd img{
+    width: 350px;
+    height: 250px;
+}
+
+/* Judul 2 End */
+
+/* Doorprize */
+
+section.prize{
+    width: 100%;
+    height: 70vh;
+}
+
+.dp-head{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+    font-family: Jost;
+}
+
+.dp-s{
+    border-bottom: 5px solid #BF0561;
+}
+
+.dp-v{
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: Nunito;
+}
+
+.dp-hadiah img{
+    padding: 10px;
+    width: 250px;
+    height: 195px;
+}
+
+.dp-text{
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Doorprize End */
+
+/* Bagaimana Caranya */
+.text-bg{
+    font-weight:bold ;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    align-items: center;
+    
+
+}
+
+.t-bg1{
+    border-bottom: 5px solid #BF0561;
+}
+/* Set the style of container
+            div element */
+            .container2{
+                height: 340px;
+                width: 1040px;
+                overflow-y: auto;
+                background-color: rgb(255, 255, 255);
+                border-radius: 5px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin: 0 auto;
+                display: block;
+            }
+            /* Set the effects to the division
+                named content */
+            .scrollbar{
+                height: 200px;  
+                width: 900px;
+                margin-left: 50px;
+                color: white;
+                text-align: left;
+            }
+             
+            /* Designing for scroll-bar */
+            ::-webkit-scrollbar {
+                width: 6px;
+            }
+         
+            /* Track */
+            ::-webkit-scrollbar-track {
+                background: gainsboro;
+                border-radius: 5px;
+            }
+         
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: #BF0561;
+                border-radius: 5px;
+            }
+         
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+
+    ul.a {
+        list-style-position: inside;
+        color : #BF0561;
+    }
+
+    li {
+        color: #BF0561;
+    }
+
+.gambarburi {
+    position: absolute;
+    width: 87px;
+    height: 126px;
+    left: -10px;
+    top: 1815px;
+    z-index: -1;
+
+    
+    background: url(buri1.svg);
+    
+}
+
+.gambarbur2{
+    position: absolute;
+    width: 121px;
+    height: 176px;
+    left: 1010px;
+    top: 1550px;
+    z-index: -1;
+
+}
+
+.gmbrhp{
+    position: absolute;
+    width: 380.67px;
+    height: 612px;
+    left: 230px;
+    top: 2050px;
+}
+
+.bgr{
+    position: absolute;
+    width: 398.13px;
+    height: 362.43px;
+    left: 180px;
+    top: 2150px;
+    z-index: -1;
+}
+
+.vidio{
+    position: absolute;
+    width: 370px;
+    height: 600px;
+    left: 240px;
+    top: 2067px;
+    z-index: -1;
+}
+
+.rct{
+    position: absolute;
+    width: 344px;
+    height: 40px;
+    left: 650px;
+    top: 2210px;
+}
+
+.tema{
+    position: absolute;
+    width: 442px;
+    height: 28px;
+    left: 650px;
+    top: 2270px;
+}
+
+.cek{
+    position: absolute;
+    width: 340px;
+    height: 28px;
+    left: 650px;
+    top: 2310px;
+}
+
+.btn-ig{
+    position: absolute;
+    width: 182px;
+    height: 35px;
+    left: 650px;
+    top: 2350px;
+    background-color: #BF0561;
+}
+
+button.btn-ig{
+    padding: 8px 40px;
+    border: none;
+    background-color:#BF0561;
+    border-radius: 40px;
+    color: #ffff;
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+button.btn-ig.img{
+    padding: 0 10px;
+}
+
+.glr{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 231px;
+    height: 51px;
+    left: 500px;
+    top: 2800px;
+}
+
+.glr{
+    border-bottom: 5px solid #BF0561;
+}
+
+.gh{
+    position: absolute;
+width: 1094px;
+height: 485px;
+left: 50px;
+top: 1000px;
+
+background: #F6F6F6;
+box-shadow: 0px 10px 16px rgba(66, 66, 66, 0.214707);
+border-radius: 18px;
+}
+
+.gb1{
+    position: absolute;
+    width: 300px;
+    height: 385px;
+    left: 235px;
+    top: 3307px;
+    
+    background: blue;
+    border-radius: 15px;
+}
+
+

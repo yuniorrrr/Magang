@@ -1,0 +1,2 @@
+# magang
+repositori untuk magang

@@ -3,19 +3,12 @@
 
 
 /* Navabr */
-body{
+.container{
+    width: 1200 !important;
+    max-width: none !important;
+}
     
-}
-*{
-    padding: 0;
-    margin: 0;
-}
 
-.container {
-    width: 1140px;
-    margin: 0 auto;
-    position: relative;
-}
 
 nav{
     display: flex;
@@ -27,12 +20,14 @@ nav{
 }
 
 .nav-logo img {
+    position: relative;
+    margin-left: 50px;
     width: 130px;
     height: 39px;
 }
 
 .nav-items{
-    width: 70%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
@@ -73,9 +68,7 @@ button.btn-daftar{
 button.btn-daftar img{
     padding: 0 10px;
     
-
 }
-
 /* Navbar End */
 
 /* Judul */
@@ -101,13 +94,20 @@ section.hero{
     width: 40%;
 }
 
+.text-head{
+    margin-top: 150px;
+}
+
 h1.head{
+    position: relative;
+    margin-left: 50px;
     font-size: 50px;
     font-family: Jost;
 }
 
 .support{
-    display: flex;
+    position: relative;
+   display: flex;
 }
 
 .support img {
@@ -117,23 +117,29 @@ h1.head{
 }
 
 h3.support{
-    margin: 5px 0;
+    position: relative;
+    margin-left: 60px;
     font-size: 20px;
     font-family: Jost;
     font-weight: 300;
 }
 
 p.content{
-    margin: 20px 0;
+    position: relative;
+    margin-left: 60px;
     font-size: 16px;
     font-family: Nunito;
 }
 
 .bec{
+    position: relative;
+    margin-left: 60px;
     color: #BF0561;
 }
 
 button.btn-gabung{
+    position: relative;
+    margin-left: 60px;
     padding: 8px 40px;
     border: none;
     background-color:#BF0561;
@@ -235,6 +241,7 @@ section.prize{
 }
 
 .dp-hadiah img{
+    margin-left: 20px;
     padding: 10px;
     width: 250px;
     height: 195px;
@@ -242,6 +249,7 @@ section.prize{
 
 .dp-text{
     width: 80%;
+    margin-left: 20px;
     font-size: 16px;
     text-align: center;
     align-items: center;
@@ -250,6 +258,10 @@ section.prize{
 /* Doorprize End */
 
 /* Bagaimana Caranya */
+
+section.bagaimna{
+    margin-top: 150px;
+}
 .text-bg{
     font-weight:bold ;
     text-align: center;
@@ -269,6 +281,7 @@ section.prize{
                 height: 340px;
                 width: 1040px;
                 overflow-y: auto;
+                overflow-x: hidden;
                 background-color: rgb(255, 255, 255);
                 border-radius: 5px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -320,12 +333,9 @@ section.prize{
     position: absolute;
     width: 87px;
     height: 126px;
-    left: -10px;
-    top: 1815px;
+    left: 140px;
+    top: 2300px;
     z-index: -1;
-
-    
-    background: url(buri1.svg);
     
 }
 
@@ -333,26 +343,27 @@ section.prize{
     position: absolute;
     width: 121px;
     height: 176px;
-    left: 1010px;
-    top: 1550px;
+    left: 1180px;
+    top: 2000px;
     z-index: -1;
 
 }
 
+
 .gmbrhp{
-    position: absolute;
+    position: relative;
     width: 380.67px;
     height: 612px;
-    left: 230px;
-    top: 2050px;
+    margin-top: 150px;
+    margin-left: 300px;
 }
 
 .bgr{
     position: relative;
     width: 398.13px;
     height: 362.43px;
-    left: 180px;
-    top: 2150px;
+    margin-top: -510px;
+    margin-left: 260px;
     z-index: -1;
 }
 
@@ -360,41 +371,43 @@ section.prize{
     position: relative;
     width: 370px;
     height: 600px;
-    left: 240px;
-    top: 2067px;
+    margin-top: -445px;
+    margin-left: 310px;
     z-index: -1;
 }
 
 .rct{
-    position: absolute;
+    position: relative;
     width: 344px;
     height: 40px;
-    left: 650px;
-    top: 2210px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -470px;
+    margin-left: 700px;
 }
 
 .tema{
-    position: absolute;
+    position: relative;
     width: 442px;
     height: 28px;
-    left: 650px;
-    top: 2270px;
+   margin-top: 20px;
+   margin-left: 700px;
 }
 
 .cek{
-    position: absolute;
+    position: relative;
     width: 340px;
     height: 28px;
-    left: 650px;
-    top: 2310px;
+   margin-top: 20px;
+   margin-left: 700px;
 }
 
 .btn-ig{
     position: relative;
     width: 182px;
     height: 35px;
-    left: 650px;
-    top: 2350px;
+    margin-top: 20px;
+    margin-left: 700px;
     background-color: #BF0561;
 }
 
@@ -415,13 +428,12 @@ button.btn-ig.img{
     padding: 0 10px;
 }
 
-
 .glr{
     position: relative;
     width: 231px;
     height: 51px;
-    left: 500px;
-    top: 2700px;
+    margin-top: 400px;
+    margin-left: 600px;
 
     font-weight: 700;
     font-size: 40px;
@@ -430,9 +442,169 @@ button.btn-ig.img{
     color: #222222;
 }
 
+.bgkanan{
+    position: relative;
+    margin-left: 1044px;
+    z-index: -1;
+}
+.bgkananbawah{
+    position: relative;
+    margin-left: 1344px;
+    margin-top: -110px;
+}
+
+.bgkiri{
+    position: relative;
+    margin-top: -750px;
+}
+
+.bgkiriatas{
+    position: relative;
+    margin-top: -600px;
+    margin-left: 100px;
+}
+
+
+.swiper{
+    width: 1000px;
+    height: 480px;
+    margin-top: -600px;
+    background: #f6f6f6;
+    border-radius: 18px;
+}
+
+.swiper-slide{
+    max-height: 380px;
+    max-width: 300px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-top: 10px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    z-index: 1;
+
+}
+.rachel{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.igrachel{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.fotorachel{
+    position: relative;
+    margin-left: -330px;
+    margin-top: 144px;
+    z-index: 1;
+}
+
+.fotobulat1{
+    margin-top: -60px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.dere{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.igdere{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.fotobulat2{
+    margin-top: -360px;
+    margin-left: 20px;
+}
+
+.isyana{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.igisyana{
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+.btn-swiper{
+    position: relative;
+    padding: 8px 40px;
+    margin-top: 400px;
+    margin-left: 630px;
+    border: none;
+    font-style: normal;
+    background-color:#BF0561;
+    border-radius: 40px;
+    color: #ffff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.banner{
+    width: 1440px;
+    height: 480px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border-radius: 18px;
+}
+
+.banner1{
+    position: relative;
+    margin-left: -40px;
+    margin-top: 60px ;
+    border-radius: 20%;
+    opacity: 30%;
+}
+
+.banner2{
+    position: relative;
+    margin-left: 210px;
+    margin-top: 60px;
+
+}
+
+.banner3{
+    position: relative;
+    margin-left: 1000px;
+    margin-top: 60px;
+    opacity: 30%;
+}
+
+.swiper.banner .swiper-slide:nth-child(1n) {
+    width: 0px;
+   
+  }
+
+  .swiper.banner .swiper-slide:nth-child(2n) {
+    width: 0%;
+
+    
+  }
+
+  .swiper.banner .swiper-slide:nth-child(3n) {
+    width: 0%;
+  }
+
+
+
 .seputar{
     position: relative;
-    top: 3000px;
+    margin-top: 200px;
     font-weight:bold ;
     text-align: center;
     font-size: 40px;
@@ -448,8 +620,8 @@ button.btn-ig.img{
     position: relative;
     width: 380px;
     height: 351px;
-    left: -23px;
-    top: 3000px;
+    margin-top: 100px;
+    margin-left: 80px;
 
     background: #FFFFFF;
     box-shadow: 0px 5px 13px rgba(66, 66, 66, 0.16256);
@@ -459,8 +631,8 @@ button.btn-ig.img{
     position: relative;
     width: 341px;
     height: 54px;
-    left: 19px;
-    top: 0px;
+    margin-top: 5px;
+    margin-left: 19px;
     font-size: 18px;
     font-weight: 400px;
     line-height: 27px;
@@ -472,8 +644,8 @@ button.btn-ig.img{
     position: relative;
     width: 109px;
     height: 19px;
-    left: 18px;
-    top: 50px;
+    margin-top: 50px;
+    margin-left: 19px;
     font-family: 'Cera Basic';
     font-style: normal;
     font-weight: 700;
@@ -487,9 +659,8 @@ button.btn-ig.img{
     position: relative;
     width: 380px;
     height: 351px;
-    left: 390px;
-    top: 2650px;
-
+    margin-top: -352px;
+    margin-left: 545px;
     background: #FFFFFF;
     box-shadow: 0px 5px 13px rgba(66, 66, 66, 0.16256);
     border-radius: 19px;
@@ -499,8 +670,8 @@ button.btn-ig.img{
     position: relative;
     width: 337px;
     height: 81px;
-    left: 19px;
-    top: 0px;
+    margin-top: 5px;
+    margin-left: 19px;
 
     font-style: normal;
     font-weight: 400;
@@ -512,8 +683,8 @@ button.btn-ig.img{
     position: relative;
     width: 110px;
     height: 19px;
-    left: 20px;
-    top: 28px;
+    margin-top: 20px;
+    margin-left: 19px;
 
     font-family: 'Cera Basic';
     font-style: normal;
@@ -529,8 +700,8 @@ button.btn-ig.img{
     position: relative;
     width: 380px;
     height: 351px;
-    left: 800px;
-    top: 2299px;
+    margin-top: -351px;
+    margin-left: 1000px;
 
     background: #FFFFFF;
     box-shadow: 0px 5px 13px rgba(66, 66, 66, 0.16256);
@@ -541,8 +712,8 @@ button.btn-ig.img{
     position: relative;
     width: 339px;
     height: 54px;
-    left: 19px;
-    top: 0px;
+    margin-top: 5px;
+    margin-left: 19px;
 
     font-family: 'Cera Basic';
     font-style: normal;
@@ -558,9 +729,8 @@ button.btn-ig.img{
     position: relative;
     width: 106px;
     height: 19px;
-    left: 19px;
-    top: 52px;
-
+    margin-top: 50px;
+    margin-left: 19px;
     font-family: 'Cera Basic';
     font-style: normal;
     font-weight: 700;
@@ -575,8 +745,8 @@ button.btn-ig.img{
     position: relative;
     width: 380px;
     height: 351px;
-    left: -23px;
-    top: 2350px;
+    margin-top: 60px;
+    margin-left: 80px;
 
     background: #FFFFFF;
     box-shadow: 0px 5px 13px rgba(66, 66, 66, 0.16256);
@@ -587,8 +757,8 @@ button.btn-ig.img{
     position: relative;
     width: 339px;
     height: 54px;
-    left: 19px;
-    top: 0px;
+   margin-top: 5px;
+   margin-left: 19px;
 
     font-family: 'Cera Basic';
     font-style: normal;
@@ -603,8 +773,8 @@ button.btn-ig.img{
     position: relative;
     width: 106px;
     height: 19px;
-    left: 19px;
-    top: 50px;
+    margin-top: 50px;
+    margin-left: 19px;
 
     font-family: 'Cera Basic';
     font-style: normal;
@@ -620,8 +790,8 @@ button.btn-ig.img{
     position: relative;
     width: 380px;
     height: 351px;
-    left: 390px;
-    top: 2000px;
+    margin-top: -351px;
+    margin-left: 545px;
 
     background: #FFFFFF;
     box-shadow: 0px 5px 13px rgba(66, 66, 66, 0.16256);
@@ -632,15 +802,14 @@ button.btn-ig.img{
     position: relative;
     width: 337px;
     height: 54px;
-    left: 19px;
-    top: 0px;
+    margin-top: 5px;
+    margin-left: 19px;
 
     font-family: 'Cera Basic';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    /* or 150% */
 
 
     color: #222222;
@@ -651,8 +820,8 @@ button.btn-ig.img{
     position: relative;
     width: 106px;
     height: 19px;
-    left: 19px;
-    top: 50px;
+    margin-top: 50px;
+    margin-left: 19px;
 
     font-family: 'Cera Basic';
     font-style: normal;
@@ -668,9 +837,8 @@ button.btn-ig.img{
     position: relative;
     width: 380px;
     height: 351px;
-    left: 800px;
-    top: 1650px;
-
+    margin-top: -351px;
+    margin-left: 1000px;
     background: #FFFFFF;
     box-shadow: 0px 5px 13px rgba(66, 66, 66, 0.16256);
     border-radius: 19px;
@@ -679,8 +847,8 @@ button.btn-ig.img{
     position: relative;
     width: 339px;
     height: 81px;
-    left: 19px;
-    top: 0px;
+    margin-top: 5px;
+    margin-left: 19px;
 
     font-family: 'Cera Basic';
     font-style: normal;
@@ -696,9 +864,8 @@ button.btn-ig.img{
     position: relative;
     width: 106px;
     height: 19px;
-    left: 19px;
-    top: 30px;
-
+    margin-top: 25px;
+    margin-left: 19px;
     font-family: 'Cera Basic';
     font-style: normal;
     font-weight: 700;
@@ -712,8 +879,8 @@ button.btn-ig.img{
 button.btn-mor{
     position: relative;
     padding: 8px 40px;
-    left: 510px;
-    top: 1700px;
+    margin-top: 100px;
+    margin-left: 650px;
     border: none;
     font-style: normal;
     background-color:#BF0561;
@@ -724,9 +891,9 @@ button.btn-mor{
     align-items: center;
 }
 
-.sponsored{
+.sponsored_tittle{
     position: relative;
-    top: 1800px;
+    margin-top: 100px;
     font-weight:bold ;
     text-align: center;
     font-size: 40px;
@@ -742,66 +909,65 @@ button.btn-mor{
     position: relative;
     width: 202px;
     height: 143px;
-    left: 140px;
-    top: 1850px;
+    margin-top: 100px;
+    margin-left: 250px;
 }
 
 .spn2{
     position: relative;
     width: 210px;
     height: 64px;
-    left: 450px;
-    top: 1700px;
+    margin-top: -150px;
+    margin-left: 630px;
 }
 
 .spn3{
     position: relative;
     width: 250px;
     height: 77px;
-    left: 820px;
-    top: 1640px;
+    margin-top: -60px;
+    margin-left: 1000px;
 }
 
 .spn4{
     position: relative;
     width: 176px;
     height: 68px;
-    left: 140px;
-    top: 1700px;
+    margin-top: 100px;
+    margin-left: 250px;
 }
 
 .spn5{
     position: relative;
     width: 142px;
     height: 70px;
-    left: 450px;
-    top: 1630px;
+    margin-top: -70px;
+    margin-left: 600px;
 }
 
 .spn6{
     position: relative;
     width: 109px;
     height: 86.33px;
-    left: 670px;
-    top: 1560px;
+    margin-top: -70px;
+    margin-left: 850px;
 }
 
 .spn7{
     position: relative;
     width: 137px;
     height: 97px;
-    left: 900px;
-    top: 1480px;
+    margin-top: -90px;
+    margin-left: 1050px;
 }
 
 .footer{
     position: relative;
     text-align: center;
-    left: 0px;
-    right: 0px;
-    top: 1700px;
-    background-color: #BF0561;
-    padding: 15px 0;
+    margin-top: 200px;
+    color: #FFFFFF;
+    background-color: #9B004D;
+    padding: 10px 0;
     font-family: 'Cera Basic';
     font-style: normal;
     font-weight: 400;
